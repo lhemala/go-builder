@@ -1,6 +1,6 @@
-FROM golang:1.15.6
+FROM golang:1.16.0
 
-ENV GOLANGCI_VERSION 1.35.2
+ENV GOLANGCI_VERSION 1.37.1
 
 RUN apt update && apt install -y upx-ucl
 
