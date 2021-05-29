@@ -1,4 +1,4 @@
-FROM golang:1.16.0
+FROM golang:1.16.4
 
 ENV GOLANGCI_VERSION 1.37.1
 
