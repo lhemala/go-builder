@@ -1,7 +1,7 @@
 FROM golang:1.16.7-alpine3.13
 
 ENV GOLANGCI_VERSION 1.37.1
-ENV GOTESTSUM_VERSION 1.6.4
+ENV GOTESTSUM_VERSION 1.7.0
 
 RUN apk add --update upx git make build-base
 
